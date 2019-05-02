@@ -54,6 +54,9 @@ main {
   }
 }
 
+/* 
+  Landing
+*/
 #landing {
   background: #fff;
 }
@@ -110,4 +113,32 @@ main {
 
 .btn:hover {
   background: #f4f4f4;
+}
+
+/* 
+  Media queries
+*/
+
+/* Screen sizes 500px & up */
+@media (min-width: 500px) {
+  main {
+    border-radius: 0 0 25px 25px;
+  }
+
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #nav {
+    margin-top: 0.8rem;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
 }
