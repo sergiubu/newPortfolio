@@ -142,3 +142,10 @@ main {
     height: 100vh;
   }
 }
+
+/* Screen sizes 700px & up */
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
