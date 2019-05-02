@@ -116,6 +116,41 @@ main {
 }
 
 /* 
+  About
+*/
+#about p {
+  line-height: 1.6;
+  margin: 1rem 0;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.header {
+  padding: 1.2rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.header h2 {
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.header h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+/* 
   Media queries
 */
 
