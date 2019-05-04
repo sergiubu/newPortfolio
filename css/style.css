@@ -118,13 +118,6 @@ main {
 /* 
   About
 */
-#about p {
-  line-height: 1.6;
-  margin: 1rem 0;
-  text-align: justify;
-  text-indent: 30px;
-}
-
 .header {
   padding: 1.2rem;
   text-align: center;
@@ -145,9 +138,12 @@ main {
   text-decoration: none;
 }
 
-.caption {
+.about-text {
+  line-height: 1.6;
+  margin: 1rem 0;
   padding: 0.8rem;
-  text-align: center;
+  text-align: justify;
+  text-indent: 30px;
 }
 
 /* 
