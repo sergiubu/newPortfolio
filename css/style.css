@@ -293,6 +293,52 @@ main {
 }
 
 /* 
+  Footer
+*/
+footer {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+#contact a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.fas,
+.fab {
+  color: #333;
+  cursor: pointer;
+  font-size: 2.5rem;
+  transition: ease-in 0.5s;
+}
+
+.fa-envelope:hover {
+  color: #c71610;
+}
+
+.fa-github:hover {
+  color: #6e5494;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+/* 
   Media queries
 */
 
@@ -317,6 +363,16 @@ main {
 
   #landing-image {
     height: 100vh;
+  }
+
+  footer h3 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  #contact {
+    margin-bottom: 4em;
   }
 }
 
